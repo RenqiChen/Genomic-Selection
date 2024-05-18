@@ -1,12 +1,3 @@
-# Requirements
-CUDA >= 11.7
-
-flash-atten >= 2.4.2
-
-torch >= 1.13.1
-
-apex
-
 # [IJCAI 2024] Genomic-Selection
 
 [![arXiv](https://img.shields.io/badge/arXiv-2405.09585-b31b1b.svg)](https://arxiv.org/abs/2405.09585) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -21,7 +12,9 @@ This repository contains the code for our IJCAI 2024 in the AI and Social Good t
 
 We test our codebase with PyTorch 1.13.1 with CUDA 11.7. Please install corresponding PyTorch and CUDA versions according to your computational resources.
 
-Then install the rest of required packages by running `pip install -r requirements.txt`.
+Then install:
+flash-atten >= 2.4.2
+apex
 
 ## Usage
 
