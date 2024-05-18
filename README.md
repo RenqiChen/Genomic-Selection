@@ -20,10 +20,9 @@ Then install:
 
 You can simply follow the instructions in the notebooks to run HiKER-SGG experiments:
 
-1. For the PredCls task: ``train: ipynb/train_predcls/hikersgg_predcls_train.ipynb``, ``evaluate: ipynb/eval_predcls/hikersgg_predcls_test.ipynb``.
-2. For the SGCls task: ``train: ipynb/train_sgcls/hikersgg_sgcls_train.ipynb``, ``evaluate: ipynb/eval_sgcls/hikersgg_sgcls_train.ipynb``.
+``bash distributed_train.sh``.
 
-Note that for the PredCls task, we start training from the GB-Net checkpoint; and for the SGCls task, we start training from the best PredCls checkpoint.
+Note that our model is a simple end-to-end training.
 
 ## Contact
 
