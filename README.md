@@ -18,7 +18,7 @@ Then install:
 
 ## Usage
 
-You can simply follow the instructions in the notebooks to run HiKER-SGG experiments:
+You can simply follow the instructions in the notebooks to train and evaluate:
 
 ``bash distributed_train.sh``.
 
