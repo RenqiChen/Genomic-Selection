@@ -1,6 +1,3 @@
-# Genomic-Selection
-This repository contains the code and dataset for the paper "An Embarrassingly Simple Approach to Enhance Transformer Performance in Genomic Selection for Crop Breeding," accepted at IJCAI2024 in the AI and Social Good track.
-Dataset will be soon.
 # Requirements
 CUDA >= 11.7
 
@@ -9,16 +6,14 @@ flash-atten >= 2.4.2
 torch >= 1.13.1
 
 apex
-# Citations
-Please cite our paper in your publications if our methods and dataset are helpful to your research. The BibTeX is as follows:
 
-# [CVPR 2024] HiKER-SGG
+# [IJCAI 2024] Genomic-Selection
 
-[![arXiv](https://img.shields.io/badge/arXiv-2403.12033-b31b1b.svg)](https://arxiv.org/abs/2403.12033) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![arXiv](https://img.shields.io/badge/arXiv-2403.12033-b31b1b.svg)](https://arxiv.org/abs/2405.09585) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 👀Introduction
 
-This repository contains the code for our CVPR 2024 paper `HiKER-SGG: Hierarchical Knowledge Enhanced Robust Scene Graph Generation`. [[Paper](https://arxiv.org/abs/2403.12033)] [[Website](https://zhangce01.github.io/HiKER-SGG/)]
+This repository contains the code for our IJCAI 2024 in the AI and Social Good track paper `An Embarrassingly Simple Approach to Enhance Transformer Performance in Genomic Selection for Crop Breeding`. [[Paper](https://arxiv.org/abs/2405.09585)] 
 
 ![](fig/hikersgg.png)
 
