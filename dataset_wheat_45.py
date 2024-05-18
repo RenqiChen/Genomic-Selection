@@ -101,7 +101,7 @@ class GENE(Dataset):
         kmer_feature = self.obj.obtain_kmer_feature_for_one_sequence(sequence_str, overlapping=False)
         x=np.array(kmer_feature)
         # Random Mask
-        # 设置掩码比例（此处为50%）
+        # 设置掩码比例（此处为45%）
         mask_ratio = 0.45
 
         # 生成一个与数组相同形状的随机布尔掩码
