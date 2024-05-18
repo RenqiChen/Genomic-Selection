@@ -1,0 +1,6 @@
+{
+    "data_root": "/mnt/data/oss_beijing/hww/gs_data/wheat/Seqs",
+    "fam_path": "/mnt/data/oss_beijing/hww/gs_data/wheat/sterilspike/wheat.sterilspike.fam",
+    "vocabs": ["A","C","G","T","X"],
+    "input_dim": 201740
+}
