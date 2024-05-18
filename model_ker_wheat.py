@@ -89,68 +89,6 @@ class GWASMLP(BaseMLP):
         x = self.regressor(x)
         return x
 
-
-# TODO flash attn
-# TODO rotary pos enc
-# class MultiHeadAttention(nn.Module):
-
-#     def __init__(self, d_model, num_heads, dropout=0.1):
-#         super(MultiHeadAttention, self).__init__()
-
-#         assert d_model % num_heads == 0
-
-#         self.num_heads = num_heads
-#         self.dropout = dropout
-#         self.d_k = d_model // num_heads
-
-#         self.query_linear = nn.Linear(d_model, d_model)
-#         self.key_linear = nn.Linear(d_model, d_model)
-#         self.value_linear = nn.Linear(d_model, d_model)
-#         self.output_linear = nn.Linear(d_model, d_model)
-    
-#     def forward(self, x, mask=None):
-#         query = x
-#         key = x
-#         value = x
-
-#         batch_size, _, _ = x.shape
-#         Q = self.query_linear(query)
-#         K = self.key_linear(key)
-#         V = self.value_linear(value)
-
-#         Q = Q.view(batch_size, -1, self.num_heads, self.d_k).transpose(1,2)
-#         K = K.view(batch_size, -1, self.num_heads, self.d_k).transpose(1,2)
-#         K = K.view(batch_size, -1, self.num_heads, self.d_k).transpose(1,2)
-
-#         output, _ = self.attention(Q, K, V,
-#                                 dropout=self.dropout,
-#                                 mask=mask) 
-
-#         output = self.output_linear(output)
-
-#         return output
-    
-#     def attention(self, q, k, v, mask=None, dropout=None):
-#         # q.shape: (bs, head, seq_len, dk)
-#         # k.shape: (bs, head, seq_len, dk)
-#         # v.shape: (bs, head, seq_len, dk)
-
-#         d_k = k.size()[-1]
-
-#         attn_logits = torch.matmul(q, k.transpose(-2, -1))
-#         attn_logits /= math.sqrt(d_k)
-    
-#         if mask is not None:
-#             assert 'not implemented'
-        
-#         attn_scores = F.softmax(attn_logits, dim=-1)  # b, h, l, l
-        
-#         if dropout is not None:
-#             attn_scores = F.dropout(attn_scores, dim=-1)
-        
-#         return torch.matmul(attn_scores, v), attn_scores # b, h, l, d
-
-# TODO how to cal pe
 class PositionalEncoding(nn.Module):
     def __init__(self, num_hiddens, dropout, max_len=1000):
         super(PositionalEncoding, self).__init__()
