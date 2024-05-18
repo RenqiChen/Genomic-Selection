@@ -3,8 +3,11 @@ This repository contains the code and dataset for the paper "An Embarrassingly S
 Dataset will be soon.
 # Requirements
 CUDA >= 11.7
+
 flash-atten >= 2.4.2
+
 torch >= 1.13.1
+
 apex
 # Citations
 Please cite our paper in your publications if our methods and dataset are helpful to your research. The BibTeX is as follows:
