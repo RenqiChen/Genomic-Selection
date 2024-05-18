@@ -13,8 +13,8 @@ This repository contains the code for our IJCAI 2024 in the AI and Social Good t
 We test our codebase with PyTorch 1.13.1 with CUDA 11.7. Please install corresponding PyTorch and CUDA versions according to your computational resources.
 
 Then install:
-flash-atten >= 2.4.2
-apex
+``flash-atten >= 2.4.2``
+``apex``
 
 ## Usage
 
