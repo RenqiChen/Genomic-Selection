@@ -6,6 +6,8 @@
 
 This repository contains the code for our IJCAI 2024 in the AI and Social Good track paper `An Embarrassingly Simple Approach to Enhance Transformer Performance in Genomic Selection for Crop Breeding`. [[Paper](https://arxiv.org/abs/2405.09585)] 
 
+We will release our employed data as soon as possible.
+
 ![](fig/hikersgg.png)
 
 ## Environment
