@@ -8,8 +8,6 @@ This repository contains the code for our IJCAI 2024 in the AI and Social Good t
 
 We will release our employed data as soon as possible.
 
-![](fig/hikersgg.png)
-
 ## Environment
 
 We run our code with PyTorch 1.13.1 with CUDA 11.7. It is better to install a higher version for flash attention.
