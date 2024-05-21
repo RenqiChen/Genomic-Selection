@@ -33,12 +33,10 @@ If you have any questions, please  contact at [chenrenqi@pjlab.org.cn](mailto:ch
 If you find this code useful, please consider citing our work:
 
 ```bibtex
-@misc{chen2024embarrassingly,
-      title={An Embarrassingly Simple Approach to Enhance Transformer Performance in Genomic Selection for Crop Breeding}, 
-      author={Renqi Chen and Wenwei Han and Haohao Zhang and Haoyang Su and Zhefan Wang and Xiaolei Liu and Hao Jiang and Wanli Ouyang and Nanqing Dong},
-      year={2024},
-      eprint={2405.09585},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{chen2024embarrassingly,
+  title={An Embarrassingly Simple Approach to Enhance Transformer Performance in Genomic Selection for Crop Breeding},
+  author={Chen, Renqi and Han, Wenwei and Zhang, Haohao and Su, Haoyang and Wang, Zhefan and Liu, Xiaolei and Jiang, Hao and Ouyang, Wanli and Dong, Nanqing},
+  journal={arXiv preprint arXiv:2405.09585},
+  year={2024}
 }
 ```
