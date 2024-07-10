@@ -1,0 +1,11 @@
+{
+    "data_root": "/mnt/data/oss_beijing/chenrenqi/rice3k/Seqs",
+    "xlsx_path": "/mnt/data/oss_beijing/chenrenqi/rice3k/3kRG_PhenotypeData_v20170411.xlsx",
+    "task_name": "PTH",
+    "name2id_path": "/mnt/data/oss_beijing/chenrenqi/rice3k/3K_list_sra_ids.txt",
+    "fold_root": "/mnt/data/oss_beijing/chenrenqi/rice3k/folds/pth",
+    "vocabs": ["A","C","G","T","X"],
+    "input_dim": 404388,
+    "label_unique": true,
+    "class_num": 3
+}
