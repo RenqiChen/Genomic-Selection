@@ -24,7 +24,9 @@ Then install:
 
 You can simply follow the instruction to train and evaluate:
 
-``bash distributed_train.sh``.
+``bash distributed_train.sh`` for Wheat dataset.
+
+``bash distributed_train_rice3k.sh`` for Rice3k dataset.
 
 Note that our model is a simple end-to-end training.
 
