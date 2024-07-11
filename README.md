@@ -8,7 +8,7 @@ This repository contains the code for our IJCAI 2024 in the AI and Social Good t
 
 ## Dataset Preparation
 
-We release the employed dataset Rice3k at https://drive.google.com/drive/folders/1H6XL9IHDvXR8Suq64bd1NxH_YghGdUYC?usp=sharing. Note that the genotypic results are placed in the `Genotypic` folder and six different phenotypic results are placed in the `Phenotypic` folder in a 5-fold format. Please feel free to use it. 
+We release the employed dataset Rice3k at https://drive.google.com/drive/folders/1H6XL9IHDvXR8Suq64bd1NxH_YghGdUYC?usp=sharing. Note that the genotypic results are placed in the `Genotypic` folder and six different phenotypic results are placed in the `Phenotypic` folder in a 5-fold format. `folds`, `3K_list_sra_ids.txt`, and `3kRG_PhenotypeData_v20170411.xlsx` should be downloaded for the dataset Rice3k preparation. Please feel free to use it. 
 
 However, we are very sorry to inform you that the Wheat dataset is limited by the need for our partners to use it in another article, so we currently do not have the permission to open source it. But we will open source in the future.
 
