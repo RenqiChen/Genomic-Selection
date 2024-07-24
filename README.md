@@ -6,6 +6,8 @@
 
 This repository contains the code for our IJCAI 2024 in the AI and Social Good track paper `An Embarrassingly Simple Approach to Enhance Transformer Performance in Genomic Selection for Crop Breeding`. [[Paper](https://arxiv.org/abs/2405.09585)] 
 
+![](fig/hikersgg.png)
+
 ## Dataset Preparation
 
 We release the employed dataset Rice3k at https://drive.google.com/drive/folders/1H6XL9IHDvXR8Suq64bd1NxH_YghGdUYC?usp=sharing. Note that the genotypic results are placed in the `Genotypic` folder and six different phenotypic results are placed in the `Phenotypic` folder in a 5-fold format. `folds`, `3K_list_sra_ids.txt`, and `3kRG_PhenotypeData_v20170411.xlsx` should be downloaded for the dataset Rice3k preparation. Please feel free to use it. 
