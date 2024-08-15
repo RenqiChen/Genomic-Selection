@@ -36,6 +36,10 @@ Note that our model is a simple end-to-end training.
 
 If you have any questions, please  contact at [chenrenqi@pjlab.org.cn](mailto:chenrenqi@pjlab.org.cn).
 
+## Acknowledgement
+
+This work is supported by Shanghai Artificial Intelligence Laboratory.
+
 ## BibTeX & Citation
 
 If you find this code useful, please consider citing our work:
