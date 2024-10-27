@@ -51,10 +51,10 @@ def fetch_dataset(args):
 
         train_d, test_d = split_dataset(data_root, fam_path, which_k)
 
-        if args.normalize:
-            mean, std = calculate_mean_and_std(train_d, label_map)
-            args.data_mean = mean
-            args.data_std = std
+    if args.normalize:
+        mean, std = calculate_mean_and_std(train_d, label_map)
+        args.data_mean = mean
+        args.data_std = std
 
     train_D = GENE(train_d, label_map, args)
     test_D = GENE(test_d, label_map, args)
