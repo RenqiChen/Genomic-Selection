@@ -34,7 +34,7 @@ Note that our model is a simple end-to-end training.
 
 ## Contact
 
-If you have any questions, please  contact at [chenrenqi@pjlab.org.cn](mailto:chenrenqi@pjlab.org.cn).
+If you have any questions, please  contact at [chenrenqi@pjlab.org.cn,hanwenwei@pjlab.org.cn].
 
 ## Acknowledgement
 
