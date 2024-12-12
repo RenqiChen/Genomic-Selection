@@ -198,9 +198,9 @@ class GENE(Dataset):
             label = (label - self.args.data_mean) / self.args.data_std
             label = np.array(label, dtype=np.float32)
 
-        # if self.args.label_unique:
-        #     label = self.uni_label_map[label]
-        #     label = np.array(label, dtype=np.float32)
+        if self.args.label_unique:
+            label = self.uni_label_map[label]
+            label = np.array(label, dtype=np.float32)
         return {"input":x, "label":label}
     
 
