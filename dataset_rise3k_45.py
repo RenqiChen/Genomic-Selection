@@ -146,6 +146,8 @@ def split_dataset(data_root, fam_path, which_k):
 
     train_d, test_d = [], []
     for file_name in file_lists:
+        if os.path.splitext(file_name)[0] not in is_train:
+            continue
         if is_train[os.path.splitext(file_name)[0]]:
             train_d.append(os.path.join(data_root, file_name))
         else:
