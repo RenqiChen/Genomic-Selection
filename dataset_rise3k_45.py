@@ -164,6 +164,11 @@ class GENE(Dataset):
 
         self.tokenizer = CharacterTokenizer(args.vocabs)
 
+        self.uni_map = np.unique(list(val for val in self.label_map.values()))
+        self.uni_label_map = {}
+        for i, v in enumerate(self.uni_map):
+            self.uni_label_map[v] = i
+
     def __len__(self):
         return len(self.file_paths)
     
